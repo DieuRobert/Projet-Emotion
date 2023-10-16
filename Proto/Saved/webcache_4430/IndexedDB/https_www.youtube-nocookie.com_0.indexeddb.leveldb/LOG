@@ -1,0 +1,6 @@
+2023/10/16-12:53:40.512 406c Creating DB C:/Users/cajv.paris/Documents/emotion/Diorama-Emotion/Proto/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb since it was missing.
+2023/10/16-12:53:40.519 406c Reusing MANIFEST C:/Users/cajv.paris/Documents/emotion/Diorama-Emotion/Proto/Saved/webcache_4430\IndexedDB\https_www.youtube-nocookie.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/16-12:57:44.028 198 Level-0 table #5: started
+2023/10/16-12:57:44.036 198 Level-0 table #5: 1167 bytes OK
+2023/10/16-12:57:44.038 198 Delete type=0 #3
+2023/10/16-12:57:44.038 198 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
