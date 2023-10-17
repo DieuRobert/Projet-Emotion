@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="WwiseUnreal" GUID="{46D65F69-6D69-4E90-AC17-921B0319C5A4}" Generator="2022.1.8.8316"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{2BCDAC13-75DD-4983-A7A2-8B8076A8783C}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{8B5397E6-062A-4E18-82EB-D4CE2F84E858}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{C2C3E8F8-692D-260D-124A-6A4891699D55}</FileHash>
+</ProjectInfo>
