@@ -1,5 +1,0 @@
-<<<<<<< Updated upstream
-[1016/140533.426:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-=======
-[1016/155431.530:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
->>>>>>> Stashed changes
