@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13521B81-52C0-49C8-A177-04A12AB56DBE}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{13521B81-52C0-49C8-A177-04A12AB56DBE}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="New Actor-Mixer" ID="{82A23F21-8984-4939-BF3C-C33F11B342A0}" ShortID="380925992">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{7D220F2A-A570-424D-961C-D67C697B1497}" ShortID="655892629">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{0AFD1354-C85B-4FC6-994B-93CC119ABA0F}">
+									<Language>SFX</Language>
+									<AudioFile>SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="203633857"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{0AFD1354-C85B-4FC6-994B-93CC119ABA0F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{05B2DABC-7AA4-434B-865D-7955B290A3A4}" ShortID="708420837">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_ANGER_BREAK_IMPACT_WALL_V1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235180652"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

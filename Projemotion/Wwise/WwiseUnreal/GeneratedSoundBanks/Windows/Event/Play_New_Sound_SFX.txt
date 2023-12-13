@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	431205792	Play_New_Sound_SFX			\Default Work Unit\Play_New_Sound_SFX	
-
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	966452291	Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\1000\Tone Generator	
-

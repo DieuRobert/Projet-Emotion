@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3157003241" Type="User" GUID="{E92A9F02-D347-458F-A9EC-7B7B06B2971B}" Language="SFX" Hash="{C2EB9F43-26A0-8DB1-29D2-54F527159B07}">
+			<ObjectPath>\SoundBanks\Default Work Unit\TEST</ObjectPath>
+			<ShortName>TEST</ShortName>
+			<Path>TEST.bnk</Path>
+			<Media>
+				<File Id="235180652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_ANGER_BREAK_IMPACT_WALL_V1.wav</ShortName>
+					<CachePath>SFX/SFX_ANGER_BREAK_IMPACT_WALL_V1_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3157003241" Name="TEST" ObjectPath="\Events\Default Work Unit\TEST" GUID="{7EC97A60-CD7C-4D82-810D-2F9DF6D44ABC}" DurationType="OneShot" DurationMin="5" DurationMax="5">
+					<MediaRefs>
+						<MediaRef Id="235180652"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{F2976F22-89CD-16E0-D3C2-7E6E792E2118}</FileHash>
+</SoundBanksInfo>
