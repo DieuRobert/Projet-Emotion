@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FD9217F2-A03D-43E6-B38F-57331F28C789}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="SFX" ID="{FD9217F2-A03D-43E6-B38F-57331F28C789}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="SFX_CHARACTER_FOOTSTEP" ID="{A9A4FD2B-550F-4452-A1CF-6DCE7F670D6A}">
+					<ChildrenList>
+						<Action Name="" ID="{043F9C47-78FB-4852-AC21-A0B9B52EF253}" ShortID="119106073">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FOOTSTEP_STONE" ID="{78D8A0B4-AEF5-497D-B715-7CBA9C2973E7}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_CHARACTER_HOVER_START" ID="{5DA58E43-BAB4-44E7-B79E-F0CC1681A03B}">
+					<ChildrenList>
+						<Action Name="" ID="{BF81247D-1976-4355-A097-ECB5AA056C1B}" ShortID="174951430">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PLAYER_HOVER" ID="{784F21FB-3643-4BF7-AE34-CAD144152856}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_CHARACTER_HOVER_STOP" ID="{067C3FE2-71EA-4D25-8BF1-590095A3F129}">
+					<ChildrenList>
+						<Action Name="" ID="{48556B0C-5793-442B-B3BA-9A9321DFB576}" ShortID="204554892">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PLAYER_HOVER" ID="{784F21FB-3643-4BF7-AE34-CAD144152856}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
