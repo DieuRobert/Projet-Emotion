@@ -3,9 +3,13 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{D9DBE195-28F2-40B2-99EE-0A5C9F4C2135}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="TEST" ID="{E92A9F02-D347-458F-A9EC-7B7B06B2971B}">
+				<SoundBank Name="SFX" ID="{C5F36D9B-4570-4ACF-9308-98F83735D1C5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ObjectInclusionList>
-						<ObjectRef Name="TEST" ID="{7EC97A60-CD7C-4D82-810D-2F9DF6D44ABC}" WorkUnitID="{5215CF8D-D264-4CA3-9D04-9878AE23DA8C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{FD9217F2-A03D-43E6-B38F-57331F28C789}" WorkUnitID="{FD9217F2-A03D-43E6-B38F-57331F28C789}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

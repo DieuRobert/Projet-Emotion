@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="393239870" Type="User" GUID="{C5F36D9B-4570-4ACF-9308-98F83735D1C5}" Language="SFX" Hash="{EF29DED5-ACC6-A76F-256E-0B6ACDDAD36C}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="203458866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\SFX_PLAYER_HOVER.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/SFX_PLAYER_HOVER_11A93380.wem</CachePath>
+				</File>
+				<File Id="504071141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\FOOTSTEPS\STONE\FOOTSTEP_Human_Sneaker_Run_Rock_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_8D35C6AB.wem</CachePath>
+				</File>
+				<File Id="1012539909" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\FOOTSTEPS\STONE\FOOTSTEP_Human_Sneaker_Run_Rock_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_170C4AF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="6127083" Name="SFX_CHARACTER_FOOTSTEP" ObjectPath="\Events\SFX\SFX_CHARACTER_FOOTSTEP" GUID="{A9A4FD2B-550F-4452-A1CF-6DCE7F670D6A}" DurationType="OneShot" DurationMin="0.06985398" DurationMax="0.15977369">
+					<MediaRefs>
+						<MediaRef Id="504071141"/>
+						<MediaRef Id="1012539909"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3889161152" Name="SFX_CHARACTER_HOVER_START" ObjectPath="\Events\SFX\SFX_CHARACTER_HOVER_START" GUID="{5DA58E43-BAB4-44E7-B79E-F0CC1681A03B}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="203458866"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2466948204" Name="SFX_CHARACTER_HOVER_STOP" ObjectPath="\Events\SFX\SFX_CHARACTER_HOVER_STOP" GUID="{067C3FE2-71EA-4D25-8BF1-590095A3F129}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="215506544" Name="FOOTSTEP_MATERIALS" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS" GUID="{F671E414-E340-4690-BB61-ED9C644EA807}">
+					<Switches>
+						<Switch Id="54442137" Name="LEAF" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\LEAF" GUID="{16F38E58-FF0C-4DAF-9844-553476EC50AE}"/>
+						<Switch Id="344481046" Name="ICE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\ICE" GUID="{1C29DD8F-A27B-4958-A0F4-966A83ACB3DB}"/>
+						<Switch Id="787898836" Name="SNOW" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\SNOW" GUID="{C9D12571-9FE9-41C7-A4DA-057B3D0C6B31}"/>
+						<Switch Id="803837735" Name="SAND" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\SAND" GUID="{E38DF13A-CFD6-4218-87FE-BB798D3423BA}"/>
+						<Switch Id="1216965916" Name="STONE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\STONE" GUID="{F24AE30E-E7BB-4A52-86C6-488AB568014E}"/>
+						<Switch Id="2058049674" Name="WOOD" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\WOOD" GUID="{265DD342-C020-44BF-B9D6-40BF01A1647B}"/>
+						<Switch Id="3026479917" Name="PEBBLE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\PEBBLE" GUID="{7288B942-B9FA-426D-AD57-E8FB12CDA426}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{7FE0AA10-6072-C889-2CB0-26509DC973E0}</FileHash>
+</SoundBanksInfo>

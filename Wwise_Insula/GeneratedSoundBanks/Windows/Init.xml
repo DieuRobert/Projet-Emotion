@@ -14,6 +14,19 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="215506544" Name="FOOTSTEP_MATERIALS" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS" GUID="{F671E414-E340-4690-BB61-ED9C644EA807}">
+					<Switches>
+						<Switch Id="54442137" Name="LEAF" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\LEAF" GUID="{16F38E58-FF0C-4DAF-9844-553476EC50AE}"/>
+						<Switch Id="344481046" Name="ICE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\ICE" GUID="{1C29DD8F-A27B-4958-A0F4-966A83ACB3DB}"/>
+						<Switch Id="787898836" Name="SNOW" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\SNOW" GUID="{C9D12571-9FE9-41C7-A4DA-057B3D0C6B31}"/>
+						<Switch Id="803837735" Name="SAND" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\SAND" GUID="{E38DF13A-CFD6-4218-87FE-BB798D3423BA}"/>
+						<Switch Id="1216965916" Name="STONE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\STONE" GUID="{F24AE30E-E7BB-4A52-86C6-488AB568014E}"/>
+						<Switch Id="2058049674" Name="WOOD" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\WOOD" GUID="{265DD342-C020-44BF-B9D6-40BF01A1647B}"/>
+						<Switch Id="3026479917" Name="PEBBLE" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS\PEBBLE" GUID="{7288B942-B9FA-426D-AD57-E8FB12CDA426}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick" GUID="{B086A5A9-F204-4C53-A838-BDB18B18F6D6}">
 					<Properties>
@@ -144,5 +157,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DB7A193A-5932-56B9-BB36-3694492FB97F}</FileHash>
+	<FileHash>{17598FF4-E4F3-7F61-E909-ABB382CB703E}</FileHash>
 </SoundBanksInfo>

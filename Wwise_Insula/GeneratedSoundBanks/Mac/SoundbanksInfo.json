@@ -14,6 +14,135 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "393239870",
+    "Type": "User",
+    "GUID": "{C5F36D9B-4570-4ACF-9308-98F83735D1C5}",
+    "Language": "SFX",
+    "Hash": "{EF29DED5-ACC6-A76F-256E-0B6ACDDAD36C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "Media": [
+     {
+      "Id": "203458866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\SFX_PLAYER_HOVER.wav",
+      "CachePath": "SFX/SFX/CHARACTER/SFX_PLAYER_HOVER_11A93380.wem"
+     },
+     {
+      "Id": "504071141",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\FOOTSTEPS\\STONE\\FOOTSTEP_Human_Sneaker_Run_Rock_01.wav",
+      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_8D35C6AB.wem"
+     },
+     {
+      "Id": "1012539909",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\FOOTSTEPS\\STONE\\FOOTSTEP_Human_Sneaker_Run_Rock_02.wav",
+      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_170C4AF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "6127083",
+      "Name": "SFX_CHARACTER_FOOTSTEP",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_FOOTSTEP",
+      "GUID": "{A9A4FD2B-550F-4452-A1CF-6DCE7F670D6A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.06985398",
+      "DurationMax": "0.15977369",
+      "MediaRefs": [
+       {
+        "Id": "504071141"
+       },
+       {
+        "Id": "1012539909"
+       }
+      ]
+     },
+     {
+      "Id": "3889161152",
+      "Name": "SFX_CHARACTER_HOVER_START",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_HOVER_START",
+      "GUID": "{5DA58E43-BAB4-44E7-B79E-F0CC1681A03B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "203458866"
+       }
+      ]
+     },
+     {
+      "Id": "2466948204",
+      "Name": "SFX_CHARACTER_HOVER_STOP",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_HOVER_STOP",
+      "GUID": "{067C3FE2-71EA-4D25-8BF1-590095A3F129}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "215506544",
+      "Name": "FOOTSTEP_MATERIALS",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS",
+      "GUID": "{F671E414-E340-4690-BB61-ED9C644EA807}",
+      "Switches": [
+       {
+        "Id": "54442137",
+        "Name": "LEAF",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\LEAF",
+        "GUID": "{16F38E58-FF0C-4DAF-9844-553476EC50AE}"
+       },
+       {
+        "Id": "344481046",
+        "Name": "ICE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\ICE",
+        "GUID": "{1C29DD8F-A27B-4958-A0F4-966A83ACB3DB}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "SNOW",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\SNOW",
+        "GUID": "{C9D12571-9FE9-41C7-A4DA-057B3D0C6B31}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "SAND",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\SAND",
+        "GUID": "{E38DF13A-CFD6-4218-87FE-BB798D3423BA}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "STONE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\STONE",
+        "GUID": "{F24AE30E-E7BB-4A52-86C6-488AB568014E}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "WOOD",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\WOOD",
+        "GUID": "{265DD342-C020-44BF-B9D6-40BF01A1647B}"
+       },
+       {
+        "Id": "3026479917",
+        "Name": "PEBBLE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\PEBBLE",
+        "GUID": "{7288B942-B9FA-426D-AD57-E8FB12CDA426}"
+       }
+      ]
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
@@ -48,6 +177,58 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "215506544",
+      "Name": "FOOTSTEP_MATERIALS",
+      "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS",
+      "GUID": "{F671E414-E340-4690-BB61-ED9C644EA807}",
+      "Switches": [
+       {
+        "Id": "54442137",
+        "Name": "LEAF",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\LEAF",
+        "GUID": "{16F38E58-FF0C-4DAF-9844-553476EC50AE}"
+       },
+       {
+        "Id": "344481046",
+        "Name": "ICE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\ICE",
+        "GUID": "{1C29DD8F-A27B-4958-A0F4-966A83ACB3DB}"
+       },
+       {
+        "Id": "787898836",
+        "Name": "SNOW",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\SNOW",
+        "GUID": "{C9D12571-9FE9-41C7-A4DA-057B3D0C6B31}"
+       },
+       {
+        "Id": "803837735",
+        "Name": "SAND",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\SAND",
+        "GUID": "{E38DF13A-CFD6-4218-87FE-BB798D3423BA}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "STONE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\STONE",
+        "GUID": "{F24AE30E-E7BB-4A52-86C6-488AB568014E}"
+       },
+       {
+        "Id": "2058049674",
+        "Name": "WOOD",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\WOOD",
+        "GUID": "{265DD342-C020-44BF-B9D6-40BF01A1647B}"
+       },
+       {
+        "Id": "3026479917",
+        "Name": "PEBBLE",
+        "ObjectPath": "\\Switches\\Default Work Unit\\FOOTSTEP_MATERIALS\\PEBBLE",
+        "GUID": "{7288B942-B9FA-426D-AD57-E8FB12CDA426}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -514,44 +695,8 @@
       ]
      }
     ]
-   },
-   {
-    "Id": "3157003241",
-    "Type": "User",
-    "GUID": "{E92A9F02-D347-458F-A9EC-7B7B06B2971B}",
-    "Language": "SFX",
-    "Hash": "{C2EB9F43-26A0-8DB1-29D2-54F527159B07}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\TEST",
-    "ShortName": "TEST",
-    "Path": "TEST.bnk",
-    "Media": [
-     {
-      "Id": "235180652",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "SFX_ANGER_BREAK_IMPACT_WALL_V1.wav",
-      "CachePath": "SFX/SFX_ANGER_BREAK_IMPACT_WALL_V1_818F3B66.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "3157003241",
-      "Name": "TEST",
-      "ObjectPath": "\\Events\\Default Work Unit\\TEST",
-      "GUID": "{7EC97A60-CD7C-4D82-810D-2F9DF6D44ABC}",
-      "DurationType": "OneShot",
-      "DurationMin": "5",
-      "DurationMax": "5",
-      "MediaRefs": [
-       {
-        "Id": "235180652"
-       }
-      ]
-     }
-    ]
    }
   ],
-  "FileHash": "{1CFCFF8E-3910-FA64-F48B-D96C70F8B907}"
+  "FileHash": "{FBA77D55-5590-7D90-A22E-6BA9E63B9B0B}"
  }
 }
