@@ -43,6 +43,68 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="SFX_CHARACTER_CAPACITY_ANGER" ID="{0B563567-350A-4DF8-94B5-701C180F944C}">
+					<ChildrenList>
+						<Action Name="" ID="{00FAE96F-3BD9-49B0-8097-84177BCEBB60}" ShortID="946851524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{05B2DABC-7AA4-434B-865D-7955B290A3A4}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0A5C199B-7210-43B1-80A7-A83ECCA1880D}" ShortID="50218462">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_ANGER_BREAK_TAIL_WALL_V1" ID="{582C0D16-9D8D-4127-87AB-BA02213F497A}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_CHARACTER_JUMP" ID="{BC074F50-E96B-47EE-B9B1-A24A1400B577}">
+					<ChildrenList>
+						<Action Name="" ID="{75DE0EEE-C0D2-4B03-BF97-58A4CED1802E}" ShortID="945843494">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PLAYER_JUMP" ID="{D0650384-9D66-49BC-A0AE-076F473786CD}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_CHARACTER_CAPACITY_SADNESS_GROW" ID="{93B90C10-2AB7-4531-ABB6-CE14462EE2AB}">
+					<ChildrenList>
+						<Action Name="" ID="{EC25EAFB-BAF1-4339-96E9-2885A0448BAE}" ShortID="966109660">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_SADNESS_GROW_V1" ID="{5AADE33E-E5DC-4A52-9DEA-ED8C84B938AD}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_CHARACTER_CAPACITY_SCHRINK" ID="{41FE50C9-76D2-44DD-8935-EAB62830BBEF}">
+					<ChildrenList>
+						<Action Name="" ID="{666F935D-37A2-4F52-95FA-E6B8DDB10E56}" ShortID="347963276">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_SADNESS_SCHRINK_V1" ID="{96FD8B37-17D7-4B11-82EE-307CEA36D44F}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SFX_PLAYER_JUMP" ID="{728F6D67-BC7D-4802-852A-EA3CB735AE58}">
+					<ChildrenList>
+						<Action Name="" ID="{2E8DF1A1-CE78-4AA6-9275-2B21DB885854}" ShortID="105207113">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_PLAYER_JUMP" ID="{D0650384-9D66-49BC-A0AE-076F473786CD}" WorkUnitID="{13521B81-52C0-49C8-A177-04A12AB56DBE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

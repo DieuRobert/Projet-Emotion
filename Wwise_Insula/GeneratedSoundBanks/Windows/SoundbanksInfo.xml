@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="393239870" Type="User" GUID="{C5F36D9B-4570-4ACF-9308-98F83735D1C5}" Language="SFX" Hash="{EF29DED5-ACC6-A76F-256E-0B6ACDDAD36C}">
+		<SoundBank Id="393239870" Type="User" GUID="{C5F36D9B-4570-4ACF-9308-98F83735D1C5}" Language="SFX" Hash="{A20A008D-73EB-E9A6-A5CF-DFCAA759D02B}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
@@ -18,16 +18,52 @@
 					<ShortName>SFX\CHARACTER\SFX_PLAYER_HOVER.wav</ShortName>
 					<CachePath>SFX/SFX/CHARACTER/SFX_PLAYER_HOVER_11A93380.wem</CachePath>
 				</File>
+				<File Id="235180654" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\CAPACITY\ANGER\SFX_ANGER_BREAK_IMPACT_WALL_V1.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/CAPACITY/ANGER/SFX_ANGER_BREAK_IMPACT_WALL_V1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="480356754" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\CAPACITY\SADNESS\SFX_SADNESS_SCHRINK_V1.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/CAPACITY/SADNESS/SFX_SADNESS_SCHRINK_V1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="504071141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\CHARACTER\FOOTSTEPS\STONE\FOOTSTEP_Human_Sneaker_Run_Rock_01.wav</ShortName>
-					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_8D35C6AB.wem</CachePath>
+					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_A2A6D09E.wem</CachePath>
+				</File>
+				<File Id="808678928" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\CAPACITY\SADNESS\SFX_SADNESS_GROW_V1.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/CAPACITY/SADNESS/SFX_SADNESS_GROW_V1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="827798386" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_PLAYER_JUMP.wav</ShortName>
+					<CachePath>SFX/SFX_PLAYER_JUMP_C54B86D3.wem</CachePath>
 				</File>
 				<File Id="1012539909" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\CHARACTER\FOOTSTEPS\STONE\FOOTSTEP_Human_Sneaker_Run_Rock_02.wav</ShortName>
-					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_170C4AF0.wem</CachePath>
+					<CachePath>SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_D2ABC62B.wem</CachePath>
+				</File>
+				<File Id="1058757744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHARACTER\CAPACITY\ANGER\SFX_ANGER_BREAK_TAIL_WALL_V1.wav</ShortName>
+					<CachePath>SFX/SFX/CHARACTER/CAPACITY/ANGER/SFX_ANGER_BREAK_TAIL_WALL_V1_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2819404541" Name="SFX_CHARACTER_CAPACITY_ANGER" ObjectPath="\Events\SFX\SFX_CHARACTER_CAPACITY_ANGER" GUID="{0B563567-350A-4DF8-94B5-701C180F944C}" DurationType="OneShot" DurationMin="3.679292" DurationMax="6.502952">
+					<MediaRefs>
+						<MediaRef Id="235180654"/>
+						<MediaRef Id="1058757744"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2441257945" Name="SFX_CHARACTER_CAPACITY_SADNESS_GROW" ObjectPath="\Events\SFX\SFX_CHARACTER_CAPACITY_SADNESS_GROW" GUID="{93B90C10-2AB7-4531-ABB6-CE14462EE2AB}" DurationType="OneShot" DurationMin="0.6675417" DurationMax="0.6675417">
+					<MediaRefs>
+						<MediaRef Id="808678928"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3963427252" Name="SFX_CHARACTER_CAPACITY_SCHRINK" ObjectPath="\Events\SFX\SFX_CHARACTER_CAPACITY_SCHRINK" GUID="{41FE50C9-76D2-44DD-8935-EAB62830BBEF}" DurationType="OneShot" DurationMin="0.6675417" DurationMax="0.6675417">
+					<MediaRefs>
+						<MediaRef Id="480356754"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="6127083" Name="SFX_CHARACTER_FOOTSTEP" ObjectPath="\Events\SFX\SFX_CHARACTER_FOOTSTEP" GUID="{A9A4FD2B-550F-4452-A1CF-6DCE7F670D6A}" DurationType="OneShot" DurationMin="0.06985398" DurationMax="0.15977369">
 					<MediaRefs>
 						<MediaRef Id="504071141"/>
@@ -40,6 +76,16 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="2466948204" Name="SFX_CHARACTER_HOVER_STOP" ObjectPath="\Events\SFX\SFX_CHARACTER_HOVER_STOP" GUID="{067C3FE2-71EA-4D25-8BF1-590095A3F129}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="19975405" Name="SFX_CHARACTER_JUMP" ObjectPath="\Events\SFX\SFX_CHARACTER_JUMP" GUID="{BC074F50-E96B-47EE-B9B1-A24A1400B577}" DurationType="OneShot" DurationMin="0.28874177" DurationMax="0.4473632">
+					<MediaRefs>
+						<MediaRef Id="827798386"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="648313621" Name="SFX_PLAYER_JUMP" ObjectPath="\Events\SFX\SFX_PLAYER_JUMP" GUID="{728F6D67-BC7D-4802-852A-EA3CB735AE58}" DurationType="OneShot" DurationMin="0.28874177" DurationMax="0.4473632">
+					<MediaRefs>
+						<MediaRef Id="827798386"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="215506544" Name="FOOTSTEP_MATERIALS" ObjectPath="\Switches\Default Work Unit\FOOTSTEP_MATERIALS" GUID="{F671E414-E340-4690-BB61-ED9C644EA807}">
@@ -211,5 +257,5 @@
 			</AcousticTextures>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{43E494FC-2B66-8BDB-DBBF-323B3C2BC273}</FileHash>
+	<FileHash>{479D7F9B-A003-CE23-292A-955A4F552E10}</FileHash>
 </SoundBanksInfo>

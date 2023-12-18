@@ -17,53 +17,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{7D220F2A-A570-424D-961C-D67C697B1497}" ShortID="655892629">
-							<PropertyList>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{0AFD1354-C85B-4FC6-994B-93CC119ABA0F}">
-									<Language>SFX</Language>
-									<AudioFile>SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="203633857"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SDL_Animals_Farm_Sheep_Bleat_01_SND14877 4" ID="{0AFD1354-C85B-4FC6-994B-93CC119ABA0F}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{05B2DABC-7AA4-434B-865D-7955B290A3A4}" ShortID="708420837">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}">
-									<Language>SFX</Language>
-									<AudioFile>SFX_ANGER_BREAK_IMPACT_WALL_V1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="235180652"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<ActorMixer Name="CHARACTER" ID="{23CDDC5C-3EBB-4F02-B0F1-892D63893485}" ShortID="927563363">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -367,6 +320,179 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="SFX_PLAYER_HOVER" ID="{F66B717F-7114-4531-A4FD-F75A6E2ABD80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Folder Name="CAPACITY" ID="{B5C2E2E0-549F-4E89-87E6-837C718A6E51}" ShortID="215866136">
+									<ChildrenList>
+										<ActorMixer Name="ANGER" ID="{9EE525E7-674E-4EA4-8DAC-B64D77E9CB50}" ShortID="674269805">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{FF96F1F0-51E6-44BB-BC3F-5ED9FF0A1D83}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="531"/>
+																	<Property Name="Min" Type="Real64" Value="-455"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{05B2DABC-7AA4-434B-865D-7955B290A3A4}" ShortID="708420837">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\CHARACTER\CAPACITY\ANGER\SFX_ANGER_BREAK_IMPACT_WALL_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235180654"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_ANGER_BREAK_IMPACT_WALL_V1" ID="{962E3697-F6ED-45DE-967A-6D5C9902DE99}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_ANGER_BREAK_TAIL_WALL_V1" ID="{582C0D16-9D8D-4127-87AB-BA02213F497A}" ShortID="576559989">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_ANGER_BREAK_TAIL_WALL_V1" ID="{55E0DCB1-339B-467D-B3FC-37954CDF1CAC}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\CHARACTER\CAPACITY\ANGER\SFX_ANGER_BREAK_TAIL_WALL_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1058757744"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_ANGER_BREAK_TAIL_WALL_V1" ID="{55E0DCB1-339B-467D-B3FC-37954CDF1CAC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+										<ActorMixer Name="SADNESS" ID="{C58F3094-5F80-4379-897B-29E08A1E58F5}" ShortID="218477793">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SFX_SADNESS_GROW_V1" ID="{5AADE33E-E5DC-4A52-9DEA-ED8C84B938AD}" ShortID="279488690">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_SADNESS_GROW_V1" ID="{4A31D52D-C9AE-43E6-9597-083D1F6AB0FE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\CHARACTER\CAPACITY\SADNESS\SFX_SADNESS_GROW_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="808678928"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_SADNESS_GROW_V1" ID="{4A31D52D-C9AE-43E6-9597-083D1F6AB0FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SFX_SADNESS_SCHRINK_V1" ID="{96FD8B37-17D7-4B11-82EE-307CEA36D44F}" ShortID="601333857">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SFX_SADNESS_SCHRINK_V1" ID="{BF281BB9-C94C-48B6-84CF-01BB0373065E}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\CHARACTER\CAPACITY\SADNESS\SFX_SADNESS_SCHRINK_V1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="480356754"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SFX_SADNESS_SCHRINK_V1" ID="{BF281BB9-C94C-48B6-84CF-01BB0373065E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</Folder>
+								<Sound Name="SFX_PLAYER_JUMP" ID="{D0650384-9D66-49BC-A0AE-076F473786CD}" ShortID="445375173">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{33F06577-F019-45C6-A724-8435C53D73AC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="404"/>
+															<Property Name="Min" Type="Real64" Value="-354"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DF4653A8-C311-4438-8540-68AC95E4F097}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B7168819-6911-4324-9608-F2E088DBBDCD}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_PLAYER_JUMP" ID="{9733D475-9404-4B87-8EE7-AD15EE4322D3}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.046033451536643"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0623874408983452"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_PLAYER_JUMP.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827798386"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_PLAYER_JUMP" ID="{9733D475-9404-4B87-8EE7-AD15EE4322D3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

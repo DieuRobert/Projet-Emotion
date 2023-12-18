@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{C5F36D9B-4570-4ACF-9308-98F83735D1C5}",
     "Language": "SFX",
-    "Hash": "{EF29DED5-ACC6-A76F-256E-0B6ACDDAD36C}",
+    "Hash": "{A20A008D-73EB-E9A6-A5CF-DFCAA759D02B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
     "ShortName": "SFX",
     "Path": "SFX.bnk",
@@ -32,12 +32,44 @@
       "CachePath": "SFX/SFX/CHARACTER/SFX_PLAYER_HOVER_11A93380.wem"
      },
      {
+      "Id": "235180654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\CAPACITY\\ANGER\\SFX_ANGER_BREAK_IMPACT_WALL_V1.wav",
+      "CachePath": "SFX/SFX/CHARACTER/CAPACITY/ANGER/SFX_ANGER_BREAK_IMPACT_WALL_V1_818F3B66.wem"
+     },
+     {
+      "Id": "480356754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\CAPACITY\\SADNESS\\SFX_SADNESS_SCHRINK_V1.wav",
+      "CachePath": "SFX/SFX/CHARACTER/CAPACITY/SADNESS/SFX_SADNESS_SCHRINK_V1_818F3B66.wem"
+     },
+     {
       "Id": "504071141",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX\\CHARACTER\\FOOTSTEPS\\STONE\\FOOTSTEP_Human_Sneaker_Run_Rock_01.wav",
-      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_8D35C6AB.wem"
+      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_01_A2A6D09E.wem"
+     },
+     {
+      "Id": "808678928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\CAPACITY\\SADNESS\\SFX_SADNESS_GROW_V1.wav",
+      "CachePath": "SFX/SFX/CHARACTER/CAPACITY/SADNESS/SFX_SADNESS_GROW_V1_818F3B66.wem"
+     },
+     {
+      "Id": "827798386",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_PLAYER_JUMP.wav",
+      "CachePath": "SFX/SFX_PLAYER_JUMP_C54B86D3.wem"
      },
      {
       "Id": "1012539909",
@@ -45,10 +77,63 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX\\CHARACTER\\FOOTSTEPS\\STONE\\FOOTSTEP_Human_Sneaker_Run_Rock_02.wav",
-      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_170C4AF0.wem"
+      "CachePath": "SFX/SFX/CHARACTER/FOOTSTEPS/STONE/FOOTSTEP_Human_Sneaker_Run_Rock_02_D2ABC62B.wem"
+     },
+     {
+      "Id": "1058757744",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX\\CHARACTER\\CAPACITY\\ANGER\\SFX_ANGER_BREAK_TAIL_WALL_V1.wav",
+      "CachePath": "SFX/SFX/CHARACTER/CAPACITY/ANGER/SFX_ANGER_BREAK_TAIL_WALL_V1_818F3B66.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "2819404541",
+      "Name": "SFX_CHARACTER_CAPACITY_ANGER",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_CAPACITY_ANGER",
+      "GUID": "{0B563567-350A-4DF8-94B5-701C180F944C}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.679292",
+      "DurationMax": "6.502952",
+      "MediaRefs": [
+       {
+        "Id": "235180654"
+       },
+       {
+        "Id": "1058757744"
+       }
+      ]
+     },
+     {
+      "Id": "2441257945",
+      "Name": "SFX_CHARACTER_CAPACITY_SADNESS_GROW",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_CAPACITY_SADNESS_GROW",
+      "GUID": "{93B90C10-2AB7-4531-ABB6-CE14462EE2AB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6675417",
+      "DurationMax": "0.6675417",
+      "MediaRefs": [
+       {
+        "Id": "808678928"
+       }
+      ]
+     },
+     {
+      "Id": "3963427252",
+      "Name": "SFX_CHARACTER_CAPACITY_SCHRINK",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_CAPACITY_SCHRINK",
+      "GUID": "{41FE50C9-76D2-44DD-8935-EAB62830BBEF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6675417",
+      "DurationMax": "0.6675417",
+      "MediaRefs": [
+       {
+        "Id": "480356754"
+       }
+      ]
+     },
      {
       "Id": "6127083",
       "Name": "SFX_CHARACTER_FOOTSTEP",
@@ -87,6 +172,34 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "19975405",
+      "Name": "SFX_CHARACTER_JUMP",
+      "ObjectPath": "\\Events\\SFX\\SFX_CHARACTER_JUMP",
+      "GUID": "{BC074F50-E96B-47EE-B9B1-A24A1400B577}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28874177",
+      "DurationMax": "0.4473632",
+      "MediaRefs": [
+       {
+        "Id": "827798386"
+       }
+      ]
+     },
+     {
+      "Id": "648313621",
+      "Name": "SFX_PLAYER_JUMP",
+      "ObjectPath": "\\Events\\SFX\\SFX_PLAYER_JUMP",
+      "GUID": "{728F6D67-BC7D-4802-852A-EA3CB735AE58}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28874177",
+      "DurationMax": "0.4473632",
+      "MediaRefs": [
+       {
+        "Id": "827798386"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -697,6 +810,6 @@
     ]
    }
   ],
-  "FileHash": "{FBA77D55-5590-7D90-A22E-6BA9E63B9B0B}"
+  "FileHash": "{E1BAD6AD-5317-F523-92CA-CAEC39C35951}"
  }
 }
